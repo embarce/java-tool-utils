@@ -24,6 +24,7 @@
         <fastjson.version>1.2.74</fastjson.version>
         <oscore.version>2.2.4</oscore.version>
         <poi.version>4.1.2</poi.version>
+        <netty.version>4.1.20.Final</netty.version>
 
         <docker.registry.url>zhijiao-docker.pkg.coding.net</docker.registry.url>
         <docker.registry.host>https://${docker.registry.url}</docker.registry.host>
@@ -56,6 +57,11 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatis-plus.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
